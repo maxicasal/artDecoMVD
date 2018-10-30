@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E02CD381D80F9A50075B196 /* BuildingAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02CD371D80F9A50075B196 /* BuildingAnnotationView.swift */; };
+		0E497A721D6A35EB00F1C7C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497A711D6A35EB00F1C7C2 /* AppDelegate.swift */; };
+		0E497A771D6A35EB00F1C7C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E497A751D6A35EB00F1C7C2 /* Main.storyboard */; };
+		0E497A791D6A35EB00F1C7C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E497A781D6A35EB00F1C7C2 /* Assets.xcassets */; };
+		0E497A7C1D6A35EB00F1C7C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E497A7A1D6A35EB00F1C7C2 /* LaunchScreen.storyboard */; };
+		0E497A871D6A35EB00F1C7C2 /* ArtDecoMvdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497A861D6A35EB00F1C7C2 /* ArtDecoMvdTests.swift */; };
+		0E497A921D6A35EC00F1C7C2 /* ArtDecoMvdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497A911D6A35EC00F1C7C2 /* ArtDecoMvdUITests.swift */; };
+		0E497AA71D6A374E00F1C7C2 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AA31D6A374E00F1C7C2 /* Building.swift */; };
+		0E497AA81D6A374E00F1C7C2 /* BuildingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AA41D6A374E00F1C7C2 /* BuildingTableViewCell.swift */; };
+		0E497AA91D6A374E00F1C7C2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AA51D6A374E00F1C7C2 /* ListViewController.swift */; };
+		0E497AAA1D6A374E00F1C7C2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AA61D6A374E00F1C7C2 /* MapViewController.swift */; };
+		0E497AAC1D6A582F00F1C7C2 /* Buildings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E497AAB1D6A582F00F1C7C2 /* Buildings.plist */; };
+		0E497AAE1D6A5CC800F1C7C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AAD1D6A5CC800F1C7C2 /* Constants.swift */; };
+		0E497AB01D6A7F0D00F1C7C2 /* BuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AAF1D6A7F0D00F1C7C2 /* BuildingView.swift */; };
+		0E497AB41D6D1FA700F1C7C2 /* BuildingAnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */; };
+		0E497AB61D6F9F0500F1C7C2 /* BuildingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AB51D6F9F0500F1C7C2 /* BuildingListViewController.swift */; };
+		0E497AB81D6FAB7400F1C7C2 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AB71D6FAB7400F1C7C2 /* NavViewController.swift */; };
+		0E497ABA1D7069AD00F1C7C2 /* BuildingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497AB91D7069AD00F1C7C2 /* BuildingDetailViewController.swift */; };
+		0E497ABC1D70808400F1C7C2 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497ABB1D70808300F1C7C2 /* FavoritesViewController.swift */; };
+		0E497AC01D70AD5700F1C7C2 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E497ABF1D70AD5700F1C7C2 /* Favorites.swift */; };
+		0E5ADF601DC1773900232604 /* LocationSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5ADF5F1DC1773900232604 /* LocationSearchTableViewController.swift */; };
+		0E70C5341D70F79B0046CE67 /* BuildingPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */; };
+		75EB4FEAC07CB2AB504F18FC /* Pods_ArtDecoMvd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF255CF0469D11AA9464745 /* Pods_ArtDecoMvd.framework */; };
+		BEA54E597CBD219F9F3D36A3 /* Pods_ArtDecoMvdUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6D62CAD4C1DC6E5B771AF4 /* Pods_ArtDecoMvdUITests.framework */; };
+		DFF6952ED46500BE8CA45D34 /* Pods_ArtDecoMvdTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8ABAC758C92EE958D95FCB /* Pods_ArtDecoMvdTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E497A831D6A35EB00F1C7C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E497A661D6A35EB00F1C7C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E497A6D1D6A35EB00F1C7C2;
+			remoteInfo = ArtDecoMvd;
+		};
+		0E497A8E1D6A35EC00F1C7C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E497A661D6A35EB00F1C7C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E497A6D1D6A35EB00F1C7C2;
+			remoteInfo = ArtDecoMvd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E02CD371D80F9A50075B196 /* BuildingAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingAnnotationView.swift; sourceTree = "<group>"; };
+		0E497A6E1D6A35EB00F1C7C2 /* ArtDecoMvd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtDecoMvd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E497A711D6A35EB00F1C7C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E497A761D6A35EB00F1C7C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E497A781D6A35EB00F1C7C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E497A7B1D6A35EB00F1C7C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E497A7D1D6A35EB00F1C7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E497A821D6A35EB00F1C7C2 /* ArtDecoMvdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtDecoMvdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E497A861D6A35EB00F1C7C2 /* ArtDecoMvdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtDecoMvdTests.swift; sourceTree = "<group>"; };
+		0E497A881D6A35EC00F1C7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E497A8D1D6A35EC00F1C7C2 /* ArtDecoMvdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtDecoMvdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E497A911D6A35EC00F1C7C2 /* ArtDecoMvdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtDecoMvdUITests.swift; sourceTree = "<group>"; };
+		0E497A931D6A35EC00F1C7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E497AA31D6A374E00F1C7C2 /* Building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		0E497AA41D6A374E00F1C7C2 /* BuildingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingTableViewCell.swift; sourceTree = "<group>"; };
+		0E497AA51D6A374E00F1C7C2 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		0E497AA61D6A374E00F1C7C2 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0E497AAB1D6A582F00F1C7C2 /* Buildings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Buildings.plist; sourceTree = "<group>"; };
+		0E497AAD1D6A5CC800F1C7C2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0E497AAF1D6A7F0D00F1C7C2 /* BuildingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
+		0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuildingAnnotationView.xib; sourceTree = "<group>"; };
+		0E497AB51D6F9F0500F1C7C2 /* BuildingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingListViewController.swift; sourceTree = "<group>"; };
+		0E497AB71D6FAB7400F1C7C2 /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		0E497AB91D7069AD00F1C7C2 /* BuildingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingDetailViewController.swift; sourceTree = "<group>"; };
+		0E497ABB1D70808300F1C7C2 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		0E497ABF1D70AD5700F1C7C2 /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		0E5ADF5F1DC1773900232604 /* LocationSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTableViewController.swift; sourceTree = "<group>"; };
+		0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingPinAnnotation.swift; sourceTree = "<group>"; };
+		2BBF46006B7FC7FCA7944BCA /* Pods-ArtDecoMvdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvdUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvdUITests/Pods-ArtDecoMvdUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B8D3C54C9348167115069CC /* Pods-ArtDecoMvd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvd/Pods-ArtDecoMvd.debug.xcconfig"; sourceTree = "<group>"; };
+		6C2C9E6E422E2A0E1FA29898 /* Pods-ArtDecoMvdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvdTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvdTests/Pods-ArtDecoMvdTests.release.xcconfig"; sourceTree = "<group>"; };
+		7975BDB31B664B91A2A0E63E /* Pods-ArtDecoMvdTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvdTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvdTests/Pods-ArtDecoMvdTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B8ABAC758C92EE958D95FCB /* Pods_ArtDecoMvdTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtDecoMvdTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF255CF0469D11AA9464745 /* Pods_ArtDecoMvd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtDecoMvd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EA524003E5838C53004BBE /* Pods-ArtDecoMvdUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvdUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvdUITests/Pods-ArtDecoMvdUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E59930044463EA082D5C37A4 /* Pods-ArtDecoMvd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtDecoMvd.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtDecoMvd/Pods-ArtDecoMvd.release.xcconfig"; sourceTree = "<group>"; };
+		EE6D62CAD4C1DC6E5B771AF4 /* Pods_ArtDecoMvdUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtDecoMvdUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E497A6B1D6A35EB00F1C7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EB4FEAC07CB2AB504F18FC /* Pods_ArtDecoMvd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E497A7F1D6A35EB00F1C7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF6952ED46500BE8CA45D34 /* Pods_ArtDecoMvdTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E497A8A1D6A35EC00F1C7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA54E597CBD219F9F3D36A3 /* Pods_ArtDecoMvdUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E497A651D6A35EB00F1C7C2 = {
+			isa = PBXGroup;
+			children = (
+				0E497A701D6A35EB00F1C7C2 /* ArtDecoMvd */,
+				0E497A851D6A35EB00F1C7C2 /* ArtDecoMvdTests */,
+				0E497A901D6A35EC00F1C7C2 /* ArtDecoMvdUITests */,
+				0E497A6F1D6A35EB00F1C7C2 /* Products */,
+				5BC2AFDD8D9D378FDA089A3B /* Pods */,
+				DF5A5399774ED2A4F7A9DC63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E497A6F1D6A35EB00F1C7C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E497A6E1D6A35EB00F1C7C2 /* ArtDecoMvd.app */,
+				0E497A821D6A35EB00F1C7C2 /* ArtDecoMvdTests.xctest */,
+				0E497A8D1D6A35EC00F1C7C2 /* ArtDecoMvdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E497A701D6A35EB00F1C7C2 /* ArtDecoMvd */ = {
+			isa = PBXGroup;
+			children = (
+				0E497A711D6A35EB00F1C7C2 /* AppDelegate.swift */,
+				0E497A7D1D6A35EB00F1C7C2 /* Info.plist */,
+				0E497A9F1D6A363300F1C7C2 /* Models */,
+				0E497AA21D6A366700F1C7C2 /* Resources */,
+				0E497AA01D6A363B00F1C7C2 /* ViewControllers */,
+				0E497AA11D6A364500F1C7C2 /* Views */,
+			);
+			path = ArtDecoMvd;
+			sourceTree = "<group>";
+		};
+		0E497A851D6A35EB00F1C7C2 /* ArtDecoMvdTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E497A861D6A35EB00F1C7C2 /* ArtDecoMvdTests.swift */,
+				0E497A881D6A35EC00F1C7C2 /* Info.plist */,
+			);
+			path = ArtDecoMvdTests;
+			sourceTree = "<group>";
+		};
+		0E497A901D6A35EC00F1C7C2 /* ArtDecoMvdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E497A911D6A35EC00F1C7C2 /* ArtDecoMvdUITests.swift */,
+				0E497A931D6A35EC00F1C7C2 /* Info.plist */,
+			);
+			path = ArtDecoMvdUITests;
+			sourceTree = "<group>";
+		};
+		0E497A9F1D6A363300F1C7C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E497AA31D6A374E00F1C7C2 /* Building.swift */,
+				0E497ABF1D70AD5700F1C7C2 /* Favorites.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0E497AA01D6A363B00F1C7C2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E5ADF5F1DC1773900232604 /* LocationSearchTableViewController.swift */,
+				0E497AB91D7069AD00F1C7C2 /* BuildingDetailViewController.swift */,
+				0E497AB51D6F9F0500F1C7C2 /* BuildingListViewController.swift */,
+				0E497ABB1D70808300F1C7C2 /* FavoritesViewController.swift */,
+				0E497AA51D6A374E00F1C7C2 /* ListViewController.swift */,
+				0E497AA61D6A374E00F1C7C2 /* MapViewController.swift */,
+				0E497AB71D6FAB7400F1C7C2 /* NavViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0E497AA11D6A364500F1C7C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E02CD371D80F9A50075B196 /* BuildingAnnotationView.swift */,
+				0E70C5331D70F79B0046CE67 /* BuildingPinAnnotation.swift */,
+				0E497AA41D6A374E00F1C7C2 /* BuildingTableViewCell.swift */,
+				0E497AAF1D6A7F0D00F1C7C2 /* BuildingView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0E497AA21D6A366700F1C7C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBB0EDD51D71BEEF00F4188F /* Storyboards */,
+				0E497A781D6A35EB00F1C7C2 /* Assets.xcassets */,
+				0E497AAB1D6A582F00F1C7C2 /* Buildings.plist */,
+				0E497AAD1D6A5CC800F1C7C2 /* Constants.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5BC2AFDD8D9D378FDA089A3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B8D3C54C9348167115069CC /* Pods-ArtDecoMvd.debug.xcconfig */,
+				E59930044463EA082D5C37A4 /* Pods-ArtDecoMvd.release.xcconfig */,
+				7975BDB31B664B91A2A0E63E /* Pods-ArtDecoMvdTests.debug.xcconfig */,
+				6C2C9E6E422E2A0E1FA29898 /* Pods-ArtDecoMvdTests.release.xcconfig */,
+				B2EA524003E5838C53004BBE /* Pods-ArtDecoMvdUITests.debug.xcconfig */,
+				2BBF46006B7FC7FCA7944BCA /* Pods-ArtDecoMvdUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF5A5399774ED2A4F7A9DC63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF255CF0469D11AA9464745 /* Pods_ArtDecoMvd.framework */,
+				9B8ABAC758C92EE958D95FCB /* Pods_ArtDecoMvdTests.framework */,
+				EE6D62CAD4C1DC6E5B771AF4 /* Pods_ArtDecoMvdUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBB0EDD51D71BEEF00F4188F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0E497A7A1D6A35EB00F1C7C2 /* LaunchScreen.storyboard */,
+				0E497AB31D6D1FA700F1C7C2 /* BuildingAnnotationView.xib */,
+				0E497A751D6A35EB00F1C7C2 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E497A6D1D6A35EB00F1C7C2 /* ArtDecoMvd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E497A961D6A35EC00F1C7C2 /* Build configuration list for PBXNativeTarget "ArtDecoMvd" */;
+			buildPhases = (
+				81A554851BD8F7EB2467C5CA /* [CP] Check Pods Manifest.lock */,
+				0E497A6A1D6A35EB00F1C7C2 /* Sources */,
+				0E497A6B1D6A35EB00F1C7C2 /* Frameworks */,
+				0E497A6C1D6A35EB00F1C7C2 /* Resources */,
+				ECEE04EC40B3FD01E24EAD0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtDecoMvd;
+			productName = ArtDecoMvd;
+			productReference = 0E497A6E1D6A35EB00F1C7C2 /* ArtDecoMvd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E497A811D6A35EB00F1C7C2 /* ArtDecoMvdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E497A991D6A35EC00F1C7C2 /* Build configuration list for PBXNativeTarget "ArtDecoMvdTests" */;
+			buildPhases = (
+				EAAF8F2FBBF8FA1544C7D2B4 /* [CP] Check Pods Manifest.lock */,
+				0E497A7E1D6A35EB00F1C7C2 /* Sources */,
+				0E497A7F1D6A35EB00F1C7C2 /* Frameworks */,
+				0E497A801D6A35EB00F1C7C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E497A841D6A35EB00F1C7C2 /* PBXTargetDependency */,
+			);
+			name = ArtDecoMvdTests;
+			productName = ArtDecoMvdTests;
+			productReference = 0E497A821D6A35EB00F1C7C2 /* ArtDecoMvdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E497A8C1D6A35EC00F1C7C2 /* ArtDecoMvdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E497A9C1D6A35EC00F1C7C2 /* Build configuration list for PBXNativeTarget "ArtDecoMvdUITests" */;
+			buildPhases = (
+				106AA38415C4E1B45DC15708 /* [CP] Check Pods Manifest.lock */,
+				0E497A891D6A35EC00F1C7C2 /* Sources */,
+				0E497A8A1D6A35EC00F1C7C2 /* Frameworks */,
+				0E497A8B1D6A35EC00F1C7C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E497A8F1D6A35EC00F1C7C2 /* PBXTargetDependency */,
+			);
+			name = ArtDecoMvdUITests;
+			productName = ArtDecoMvdUITests;
+			productReference = 0E497A8D1D6A35EC00F1C7C2 /* ArtDecoMvdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E497A661D6A35EB00F1C7C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gabriela Peluffo";
+				TargetAttributes = {
+					0E497A6D1D6A35EB00F1C7C2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 637YQNU923;
+						LastSwiftMigration = 0800;
+					};
+					0E497A811D6A35EB00F1C7C2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 0E497A6D1D6A35EB00F1C7C2;
+					};
+					0E497A8C1D6A35EC00F1C7C2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 0E497A6D1D6A35EB00F1C7C2;
+					};
+				};
+			};
+			buildConfigurationList = 0E497A691D6A35EB00F1C7C2 /* Build configuration list for PBXProject "ArtDecoMvd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E497A651D6A35EB00F1C7C2;
+			productRefGroup = 0E497A6F1D6A35EB00F1C7C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E497A6D1D6A35EB00F1C7C2 /* ArtDecoMvd */,
+				0E497A811D6A35EB00F1C7C2 /* ArtDecoMvdTests */,
+				0E497A8C1D6A35EC00F1C7C2 /* ArtDecoMvdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E497A6C1D6A35EB00F1C7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E497A7C1D6A35EB00F1C7C2 /* LaunchScreen.storyboard in Resources */,
+				0E497A791D6A35EB00F1C7C2 /* Assets.xcassets in Resources */,
+				0E497AAC1D6A582F00F1C7C2 /* Buildings.plist in Resources */,
+				0E497A771D6A35EB00F1C7C2 /* Main.storyboard in Resources */,
+				0E497AB41D6D1FA700F1C7C2 /* BuildingAnnotationView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E497A801D6A35EB00F1C7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E497A8B1D6A35EC00F1C7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		106AA38415C4E1B45DC15708 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtDecoMvdUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81A554851BD8F7EB2467C5CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtDecoMvd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAAF8F2FBBF8FA1544C7D2B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtDecoMvdTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECEE04EC40B3FD01E24EAD0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArtDecoMvd/Pods-ArtDecoMvd-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/XLMediaZoom/XLMediaZoom.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLMediaZoom.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtDecoMvd/Pods-ArtDecoMvd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E497A6A1D6A35EB00F1C7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E497ABA1D7069AD00F1C7C2 /* BuildingDetailViewController.swift in Sources */,
+				0E497AAA1D6A374E00F1C7C2 /* MapViewController.swift in Sources */,
+				0E497AA71D6A374E00F1C7C2 /* Building.swift in Sources */,
+				0E497A721D6A35EB00F1C7C2 /* AppDelegate.swift in Sources */,
+				0E497AAE1D6A5CC800F1C7C2 /* Constants.swift in Sources */,
+				0E497AB01D6A7F0D00F1C7C2 /* BuildingView.swift in Sources */,
+				0E497AB81D6FAB7400F1C7C2 /* NavViewController.swift in Sources */,
+				0E5ADF601DC1773900232604 /* LocationSearchTableViewController.swift in Sources */,
+				0E497AA91D6A374E00F1C7C2 /* ListViewController.swift in Sources */,
+				0E497AB61D6F9F0500F1C7C2 /* BuildingListViewController.swift in Sources */,
+				0E70C5341D70F79B0046CE67 /* BuildingPinAnnotation.swift in Sources */,
+				0E497ABC1D70808400F1C7C2 /* FavoritesViewController.swift in Sources */,
+				0E02CD381D80F9A50075B196 /* BuildingAnnotationView.swift in Sources */,
+				0E497AA81D6A374E00F1C7C2 /* BuildingTableViewCell.swift in Sources */,
+				0E497AC01D70AD5700F1C7C2 /* Favorites.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E497A7E1D6A35EB00F1C7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E497A871D6A35EB00F1C7C2 /* ArtDecoMvdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E497A891D6A35EC00F1C7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E497A921D6A35EC00F1C7C2 /* ArtDecoMvdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E497A841D6A35EB00F1C7C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E497A6D1D6A35EB00F1C7C2 /* ArtDecoMvd */;
+			targetProxy = 0E497A831D6A35EB00F1C7C2 /* PBXContainerItemProxy */;
+		};
+		0E497A8F1D6A35EC00F1C7C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E497A6D1D6A35EB00F1C7C2 /* ArtDecoMvd */;
+			targetProxy = 0E497A8E1D6A35EC00F1C7C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E497A751D6A35EB00F1C7C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E497A761D6A35EB00F1C7C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E497A7A1D6A35EB00F1C7C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E497A7B1D6A35EB00F1C7C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E497A941D6A35EC00F1C7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E497A951D6A35EC00F1C7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E497A971D6A35EC00F1C7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8D3C54C9348167115069CC /* Pods-ArtDecoMvd.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ArtDecoMvd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gapeluffo.ArtDecoMvd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		0E497A981D6A35EC00F1C7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59930044463EA082D5C37A4 /* Pods-ArtDecoMvd.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ArtDecoMvd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gapeluffo.ArtDecoMvd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		0E497A9A1D6A35EC00F1C7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7975BDB31B664B91A2A0E63E /* Pods-ArtDecoMvdTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArtDecoMvdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gapeluffo.ArtDecoMvdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtDecoMvd.app/ArtDecoMvd";
+			};
+			name = Debug;
+		};
+		0E497A9B1D6A35EC00F1C7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2C9E6E422E2A0E1FA29898 /* Pods-ArtDecoMvdTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArtDecoMvdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gapeluffo.ArtDecoMvdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtDecoMvd.app/ArtDecoMvd";
+			};
+			name = Release;
+		};
+		0E497A9D1D6A35EC00F1C7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2EA524003E5838C53004BBE /* Pods-ArtDecoMvdUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ArtDecoMvdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gapeluffo.ArtDecoMvdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = ArtDecoMvd;
+			};
+			name = Debug;
+		};
+		0E497A9E1D6A35EC00F1C7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BBF46006B7FC7FCA7944BCA /* Pods-ArtDecoMvdUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ArtDecoMvdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gapeluffo.ArtDecoMvdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = ArtDecoMvd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E497A691D6A35EB00F1C7C2 /* Build configuration list for PBXProject "ArtDecoMvd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E497A941D6A35EC00F1C7C2 /* Debug */,
+				0E497A951D6A35EC00F1C7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E497A961D6A35EC00F1C7C2 /* Build configuration list for PBXNativeTarget "ArtDecoMvd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E497A971D6A35EC00F1C7C2 /* Debug */,
+				0E497A981D6A35EC00F1C7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E497A991D6A35EC00F1C7C2 /* Build configuration list for PBXNativeTarget "ArtDecoMvdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E497A9A1D6A35EC00F1C7C2 /* Debug */,
+				0E497A9B1D6A35EC00F1C7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E497A9C1D6A35EC00F1C7C2 /* Build configuration list for PBXNativeTarget "ArtDecoMvdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E497A9D1D6A35EC00F1C7C2 /* Debug */,
+				0E497A9E1D6A35EC00F1C7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E497A661D6A35EB00F1C7C2 /* Project object */;
+}

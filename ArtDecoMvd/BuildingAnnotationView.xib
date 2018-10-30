@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" verticalCompressionResistancePriority="1000" id="HhM-So-wcn" customClass="BuildingView" customModule="ArtDecoMvd" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="236" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Edificio Artigas" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="184" translatesAutoresizingMaskIntoConstraints="NO" id="Rfq-LD-8Nv">
+                    <rect key="frame" x="46" y="7" width="160" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="198" id="72j-oN-hnq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="72j-oN-hnq"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQV-3L-bob">
+                    <rect key="frame" x="10" y="20" width="26" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="26" id="ZzB-ui-GTc"/>
+                        <constraint firstAttribute="height" constant="25" id="j9b-EK-k2c"/>
+                    </constraints>
+                    <state key="normal" image="fav"/>
+                    <connections>
+                        <action selector="favoriteTouchUp:" destination="HhM-So-wcn" eventType="touchUpInside" id="nAM-Zn-XVI"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Edificio Artigas" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJT-x2-eH4">
+                    <rect key="frame" x="46" y="29" width="160" height="16.5"/>
+                    <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dok-tQ-jSO">
+                    <rect key="frame" x="216" y="21" width="8" height="22"/>
+                    <state key="normal" image="arrowRight"/>
+                    <connections>
+                        <action selector="detailsTouchUp:" destination="HhM-So-wcn" eventType="touchUpInside" id="UNf-dt-FMJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfH-Nj-vHU">
+                    <rect key="frame" x="46" y="0.0" width="190" height="65"/>
+                    <connections>
+                        <action selector="gotToDetailsTouchUpInside:" destination="HhM-So-wcn" eventType="touchUpInside" id="PCF-s5-4V0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.9775334653092006" green="0.9775334653092006" blue="0.9775334653092006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fQV-3L-bob" firstAttribute="leading" secondItem="HhM-So-wcn" secondAttribute="leading" constant="10" id="4rJ-a7-3uA"/>
+                <constraint firstAttribute="bottom" secondItem="kfH-Nj-vHU" secondAttribute="bottom" id="AAJ-F4-iJP"/>
+                <constraint firstAttribute="trailing" secondItem="kfH-Nj-vHU" secondAttribute="trailing" id="D6n-Sx-Ijg"/>
+                <constraint firstAttribute="bottom" secondItem="KJT-x2-eH4" secondAttribute="bottom" constant="14" id="IX1-fd-hFw"/>
+                <constraint firstItem="Rfq-LD-8Nv" firstAttribute="top" secondItem="HhM-So-wcn" secondAttribute="top" constant="7" id="TS0-0t-lGQ"/>
+                <constraint firstAttribute="bottom" secondItem="KJT-x2-eH4" secondAttribute="bottom" constant="4" id="UQL-Ok-KUK"/>
+                <constraint firstAttribute="trailing" secondItem="Rfq-LD-8Nv" secondAttribute="trailing" constant="10" id="YWP-v5-v3o"/>
+                <constraint firstItem="dok-tQ-jSO" firstAttribute="centerY" secondItem="HhM-So-wcn" secondAttribute="centerY" id="YuI-Kx-0NW"/>
+                <constraint firstItem="kfH-Nj-vHU" firstAttribute="top" secondItem="HhM-So-wcn" secondAttribute="top" id="bXH-ij-TPA"/>
+                <constraint firstAttribute="bottom" secondItem="KJT-x2-eH4" secondAttribute="bottom" constant="2" id="cjr-Pe-yBV"/>
+                <constraint firstItem="dok-tQ-jSO" firstAttribute="centerY" secondItem="HhM-So-wcn" secondAttribute="centerY" id="d8c-mb-Cxk"/>
+                <constraint firstAttribute="trailing" secondItem="dok-tQ-jSO" secondAttribute="trailing" constant="12" id="g6r-tK-hFm"/>
+                <constraint firstItem="kfH-Nj-vHU" firstAttribute="leading" secondItem="fQV-3L-bob" secondAttribute="trailing" constant="10" id="gZs-1P-BSS"/>
+                <constraint firstItem="dok-tQ-jSO" firstAttribute="leading" secondItem="KJT-x2-eH4" secondAttribute="trailing" constant="10" id="iss-Dm-Fxj"/>
+                <constraint firstItem="KJT-x2-eH4" firstAttribute="leading" secondItem="fQV-3L-bob" secondAttribute="trailing" constant="10" id="k69-oY-gdU"/>
+                <constraint firstItem="KJT-x2-eH4" firstAttribute="top" secondItem="Rfq-LD-8Nv" secondAttribute="bottom" constant="1" id="q8B-O5-pAB"/>
+                <constraint firstItem="fQV-3L-bob" firstAttribute="centerY" secondItem="HhM-So-wcn" secondAttribute="centerY" id="qiL-Lt-u1N"/>
+                <constraint firstItem="fQV-3L-bob" firstAttribute="centerY" secondItem="HhM-So-wcn" secondAttribute="centerY" id="wTe-o1-ZoW"/>
+                <constraint firstItem="KJT-x2-eH4" firstAttribute="top" secondItem="HhM-So-wcn" secondAttribute="top" constant="33" id="xFV-X1-YdM"/>
+                <constraint firstItem="KJT-x2-eH4" firstAttribute="leading" secondItem="Rfq-LD-8Nv" secondAttribute="leading" id="xce-UN-yfO"/>
+                <constraint firstItem="KJT-x2-eH4" firstAttribute="width" secondItem="Rfq-LD-8Nv" secondAttribute="width" id="xlO-BQ-Xvv"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="YWP-v5-v3o"/>
+                    <exclude reference="IX1-fd-hFw"/>
+                    <exclude reference="UQL-Ok-KUK"/>
+                    <exclude reference="cjr-Pe-yBV"/>
+                    <exclude reference="xFV-X1-YdM"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="buildingAddress" destination="KJT-x2-eH4" id="Ukm-Pm-234"/>
+                <outlet property="buildingName" destination="Rfq-LD-8Nv" id="DoG-Er-zgY"/>
+                <outlet property="favoriteButton" destination="fQV-3L-bob" id="PM2-gG-nb9"/>
+            </connections>
+            <point key="canvasLocation" x="700" y="234.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrowRight" width="8" height="15"/>
+        <image name="fav" width="26" height="25"/>
+    </resources>
+</document>
