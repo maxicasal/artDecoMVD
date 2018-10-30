@@ -35,54 +35,11 @@ class BuildingDetailViewController: UIViewController {
         setupTapGestureToImageView()
     }
 
-    func initializeLayout(){
+    func initializeLayout() {
 
-        if let building = self.building{
-
-            // image
-            if let image = self.building!.image{
-                if image == Images.noImage{
-                    buildingImage.frame.size.height = 0
-                    buildingImageRatioConstraint.isActive = false
-                    buildingImageHeightConstraint.constant = 0
-                } else {
-                    buildingImage.image = UIImage(named: image)
-                    buildingImageHeightConstraint.isActive = false
-                }
-
-            }else{
-                buildingImage.frame.size.height = 0
-                buildingImageRatioConstraint.isActive = false
-                buildingImageHeightConstraint.constant = 0
-            }
-
-            // title
-            buildingTitleLabel.text = building.name.uppercased()
-            super.title = building.name
-
-            // year - architect
-            if building.year != "" {
-                buildingArchitectLabel.text = "\(building.year)"
-            }
-
-            if building.architect != "" {
-                buildingArchitectLabel.text = buildingArchitectLabel.text! + " - \(building.architect)"
-            }
-
-            buildingArchitectLabel.font = UIFont(name: kFontLight, size: 15)
-
-            // address
-            buildingAddressLabel.text = building.address
-
-            // program
-            if let program = building.program {
-                buildingUseLabel.text = program
-                buildingUseLabel.font = UIFont(name: kFontLight, size: 14)
-            }
-
-            // description
-            buildingAboutText.text = building.fullDescription
-            buildingUseLabel.font = UIFont(name: kFontLight, size: 14)
+        if let building = self.building {
+            setupImage()
+            setupInformation(building)
 
             // favorite star
             isFavorite = Favorites.sharedInstance.isFavorite(building: building)
@@ -92,6 +49,54 @@ class BuildingDetailViewController: UIViewController {
             addAnnotation(building: building)
         }
 
+    }
+    
+    func setupImage() {
+        if let image = self.building!.image {
+            if image == Images.noImage {
+                buildingImage.frame.size.height = 0
+                buildingImageRatioConstraint.isActive = false
+                buildingImageHeightConstraint.constant = 0
+            } else {
+                buildingImage.image = UIImage(named: image)
+                buildingImageHeightConstraint.isActive = false
+            }
+            
+        } else {
+            buildingImage.frame.size.height = 0
+            buildingImageRatioConstraint.isActive = false
+            buildingImageHeightConstraint.constant = 0
+        }
+    }
+    
+    func setupInformation(_ building: Building) {
+        // title
+        buildingTitleLabel.text = building.name.uppercased()
+        super.title = building.name
+        
+        // year - architect
+        if building.year != "" {
+            buildingArchitectLabel.text = "\(building.year)"
+        }
+        
+        if building.architect != "" {
+            buildingArchitectLabel.text = buildingArchitectLabel.text! + " - \(building.architect)"
+        }
+        
+        buildingArchitectLabel.font = UIFont(name: kFontLight, size: 15)
+        
+        // address
+        buildingAddressLabel.text = building.address
+        
+        // program
+        if let program = building.program {
+            buildingUseLabel.text = program
+            buildingUseLabel.font = UIFont(name: kFontLight, size: 14)
+        }
+        
+        // description
+        buildingAboutText.text = building.fullDescription
+        buildingUseLabel.font = UIFont(name: kFontLight, size: 14)
     }
 
     @IBAction func toggleFavorite(sender: AnyObject) {

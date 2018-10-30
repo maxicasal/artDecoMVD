@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -16,7 +15,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Edificio Artigas" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="184" translatesAutoresizingMaskIntoConstraints="NO" id="Rfq-LD-8Nv">
-                    <rect key="frame" x="46" y="7" width="160" height="21"/>
+                    <rect key="frame" x="46" y="7" width="160" height="20.5"/>
                     <constraints>
                         <constraint firstAttribute="width" relation="lessThanOrEqual" constant="198" id="72j-oN-hnq"/>
                     </constraints>
@@ -37,26 +36,26 @@
                     </constraints>
                     <state key="normal" image="fav"/>
                     <connections>
-                        <action selector="favoriteTouchUp:" destination="HhM-So-wcn" eventType="touchUpInside" id="nAM-Zn-XVI"/>
+                        <action selector="favoriteTouchUpWithSender:" destination="HhM-So-wcn" eventType="touchUpInside" id="W3f-RS-qAK"/>
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Edificio Artigas" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJT-x2-eH4">
-                    <rect key="frame" x="46" y="29" width="160" height="16.5"/>
+                    <rect key="frame" x="46" y="28.5" width="160" height="16.5"/>
                     <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dok-tQ-jSO">
-                    <rect key="frame" x="216" y="21" width="8" height="22"/>
+                    <rect key="frame" x="216" y="21.5" width="8" height="22"/>
                     <state key="normal" image="arrowRight"/>
                     <connections>
-                        <action selector="detailsTouchUp:" destination="HhM-So-wcn" eventType="touchUpInside" id="UNf-dt-FMJ"/>
+                        <action selector="detailsTouchUpWithSender:" destination="HhM-So-wcn" eventType="touchUpInside" id="zdW-eI-3nm"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfH-Nj-vHU">
                     <rect key="frame" x="46" y="0.0" width="190" height="65"/>
                     <connections>
-                        <action selector="gotToDetailsTouchUpInside:" destination="HhM-So-wcn" eventType="touchUpInside" id="PCF-s5-4V0"/>
+                        <action selector="gotToDetailsTouchUpInsideSender:" destination="HhM-So-wcn" eventType="touchUpInside" id="xWB-zJ-Vne"/>
                     </connections>
                 </button>
             </subviews>

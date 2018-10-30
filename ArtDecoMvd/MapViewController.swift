@@ -192,7 +192,7 @@ extension MapViewController : MKMapViewDelegate, UIGestureRecognizerDelegate {
     }
     
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-        if view.annotation is MKUserLocation{
+        if view.annotation is MKUserLocation {
             return
         }
         

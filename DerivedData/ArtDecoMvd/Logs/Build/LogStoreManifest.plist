@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>0C80E289-077B-46CF-ABC5-5096767B7945</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0C80E289-077B-46CF-ABC5-5096767B7945.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562461596.01328397</real>
+			<key>timeStoppedRecording</key>
+			<real>562461596.11496997</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>0C80E289-077B-46CF-ABC5-5096767B7945</string>
+		</dict>
+		<key>1363DEAF-740D-4974-A0B9-FFFAF89A9EC6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1363DEAF-740D-4974-A0B9-FFFAF89A9EC6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562613459.956164</real>
+			<key>timeStoppedRecording</key>
+			<real>562613462.34038699</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>1363DEAF-740D-4974-A0B9-FFFAF89A9EC6</string>
+		</dict>
+		<key>1EAC3C6F-0692-4663-BE00-D8AACD2B83C5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1EAC3C6F-0692-4663-BE00-D8AACD2B83C5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562610462.63717997</real>
+			<key>timeStoppedRecording</key>
+			<real>562610464.71429598</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>1EAC3C6F-0692-4663-BE00-D8AACD2B83C5</string>
+		</dict>
+		<key>22C15990-2C01-4771-BC25-74A1522E8C34</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>22C15990-2C01-4771-BC25-74A1522E8C34.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562612555.71329498</real>
+			<key>timeStoppedRecording</key>
+			<real>562612558.24509299</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>22C15990-2C01-4771-BC25-74A1522E8C34</string>
+		</dict>
+		<key>280EA631-74C3-4212-8D25-6EA23AB69CAF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>280EA631-74C3-4212-8D25-6EA23AB69CAF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562613710.29172003</real>
+			<key>timeStoppedRecording</key>
+			<real>562613710.43705106</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>280EA631-74C3-4212-8D25-6EA23AB69CAF</string>
+		</dict>
+		<key>31D0C047-471F-459F-AE25-F5A431C118E5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>31D0C047-471F-459F-AE25-F5A431C118E5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562612474.86604595</real>
+			<key>timeStoppedRecording</key>
+			<real>562612477.32290697</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>31D0C047-471F-459F-AE25-F5A431C118E5</string>
+		</dict>
+		<key>36254962-E3A4-4CA8-ACBA-2297448CA698</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>36254962-E3A4-4CA8-ACBA-2297448CA698.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562612366.47422695</real>
+			<key>timeStoppedRecording</key>
+			<real>562612368.860021</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>36254962-E3A4-4CA8-ACBA-2297448CA698</string>
+		</dict>
+		<key>4555D382-ACBB-4357-96A0-AC6766CF2FBA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4555D382-ACBB-4357-96A0-AC6766CF2FBA.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562612506.72078598</real>
+			<key>timeStoppedRecording</key>
+			<real>562612507.34845603</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>4555D382-ACBB-4357-96A0-AC6766CF2FBA</string>
+		</dict>
+		<key>57E0129A-CE2F-40A0-80A9-875676F7380D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>57E0129A-CE2F-40A0-80A9-875676F7380D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562612181.66258097</real>
+			<key>timeStoppedRecording</key>
+			<real>562612185.15855598</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>57E0129A-CE2F-40A0-80A9-875676F7380D</string>
+		</dict>
+		<key>6096970E-00EF-4795-9053-D3905C4BAE71</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6096970E-00EF-4795-9053-D3905C4BAE71.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562611320.27151501</real>
+			<key>timeStoppedRecording</key>
+			<real>562611326.27123201</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>6096970E-00EF-4795-9053-D3905C4BAE71</string>
+		</dict>
+		<key>60AA47CC-0D72-481B-AFE6-E8E8E20D3E61</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>60AA47CC-0D72-481B-AFE6-E8E8E20D3E61.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562611884.77444506</real>
+			<key>timeStoppedRecording</key>
+			<real>562611885.26446497</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>60AA47CC-0D72-481B-AFE6-E8E8E20D3E61</string>
+		</dict>
+		<key>640BD3FF-576D-42CB-8EAE-40A0CB13459D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>640BD3FF-576D-42CB-8EAE-40A0CB13459D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562610156.81107402</real>
+			<key>timeStoppedRecording</key>
+			<real>562610163.88476098</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>640BD3FF-576D-42CB-8EAE-40A0CB13459D</string>
+		</dict>
+		<key>64771418-CC07-4D32-B83E-ADEF184224F8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>64771418-CC07-4D32-B83E-ADEF184224F8.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562613185.78822196</real>
+			<key>timeStoppedRecording</key>
+			<real>562613186.43322802</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>64771418-CC07-4D32-B83E-ADEF184224F8</string>
+		</dict>
+		<key>684116B6-051D-4FED-A171-C637348254CB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>684116B6-051D-4FED-A171-C637348254CB.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562613791.65992296</real>
+			<key>timeStoppedRecording</key>
+			<real>562613791.74221897</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>684116B6-051D-4FED-A171-C637348254CB</string>
+		</dict>
+		<key>6AE508A2-6842-4C92-A3EE-5D43ECBEEC2F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6AE508A2-6842-4C92-A3EE-5D43ECBEEC2F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562610818.52252996</real>
+			<key>timeStoppedRecording</key>
+			<real>562610818.622787</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>6AE508A2-6842-4C92-A3EE-5D43ECBEEC2F</string>
+		</dict>
+		<key>6B1C4D48-ECD4-49F4-A331-BB8CF50C5961</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6B1C4D48-ECD4-49F4-A331-BB8CF50C5961.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562611849.17960703</real>
+			<key>timeStoppedRecording</key>
+			<real>562611851.23939002</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>6B1C4D48-ECD4-49F4-A331-BB8CF50C5961</string>
+		</dict>
+		<key>81C4623E-F843-4D12-BBE5-F487182C9BE6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>81C4623E-F843-4D12-BBE5-F487182C9BE6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562610745.76061404</real>
+			<key>timeStoppedRecording</key>
+			<real>562610749.509987</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>81C4623E-F843-4D12-BBE5-F487182C9BE6</string>
+		</dict>
+		<key>9442D326-DF6D-4B26-885C-31365609AB67</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9442D326-DF6D-4B26-885C-31365609AB67.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562611748.37826204</real>
+			<key>timeStoppedRecording</key>
+			<real>562611750.49100697</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>9442D326-DF6D-4B26-885C-31365609AB67</string>
+		</dict>
+		<key>A414C27D-2A03-4700-993D-41147A0EB2D5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A414C27D-2A03-4700-993D-41147A0EB2D5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562613815.77578902</real>
+			<key>timeStoppedRecording</key>
+			<real>562613815.85741901</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>A414C27D-2A03-4700-993D-41147A0EB2D5</string>
+		</dict>
+		<key>AA1036C3-48ED-46D5-8D56-F8D4A25CC4A3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AA1036C3-48ED-46D5-8D56-F8D4A25CC4A3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562611985.57239294</real>
+			<key>timeStoppedRecording</key>
+			<real>562611987.70758998</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>AA1036C3-48ED-46D5-8D56-F8D4A25CC4A3</string>
+		</dict>
+		<key>C43E35EB-C73E-4CD2-B3F5-B246C856B499</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C43E35EB-C73E-4CD2-B3F5-B246C856B499.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562611356.45681596</real>
+			<key>timeStoppedRecording</key>
+			<real>562611358.61397004</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>C43E35EB-C73E-4CD2-B3F5-B246C856B499</string>
+		</dict>
+		<key>D22B9718-F63F-4BBA-90F8-D3DB5C2E5B3B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D22B9718-F63F-4BBA-90F8-D3DB5C2E5B3B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562613431.611099</real>
+			<key>timeStoppedRecording</key>
+			<real>562613431.69983494</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>D22B9718-F63F-4BBA-90F8-D3DB5C2E5B3B</string>
+		</dict>
+		<key>D3F578A3-860B-4B25-8658-3FF3707312FB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D3F578A3-860B-4B25-8658-3FF3707312FB.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562613087.98966098</real>
+			<key>timeStoppedRecording</key>
+			<real>562613088.11803102</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>D3F578A3-860B-4B25-8658-3FF3707312FB</string>
+		</dict>
+		<key>DD7BAE14-691D-4AC1-ABF6-3824A1D35515</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DD7BAE14-691D-4AC1-ABF6-3824A1D35515.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562613607.12798703</real>
+			<key>timeStoppedRecording</key>
+			<real>562613611.12336195</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>DD7BAE14-691D-4AC1-ABF6-3824A1D35515</string>
+		</dict>
+		<key>DECC3EBD-9B8B-4A01-A4FD-DE9897ED3C46</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DECC3EBD-9B8B-4A01-A4FD-DE9897ED3C46.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562613335.18246698</real>
+			<key>timeStoppedRecording</key>
+			<real>562613337.59998596</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>DECC3EBD-9B8B-4A01-A4FD-DE9897ED3C46</string>
+		</dict>
+		<key>DF1EF0D4-4337-484F-B279-2154BB485421</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DF1EF0D4-4337-484F-B279-2154BB485421.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562612086.46385705</real>
+			<key>timeStoppedRecording</key>
+			<real>562612088.90006304</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>DF1EF0D4-4337-484F-B279-2154BB485421</string>
+		</dict>
+		<key>E01AB01E-AC28-4749-90E4-255D97D649B9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E01AB01E-AC28-4749-90E4-255D97D649B9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562611790.71259999</real>
+			<key>timeStoppedRecording</key>
+			<real>562611792.788921</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>E01AB01E-AC28-4749-90E4-255D97D649B9</string>
+		</dict>
+		<key>E540B2BF-4752-41AE-9A6A-137E9A7C1FF3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E540B2BF-4752-41AE-9A6A-137E9A7C1FF3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562613215.58988297</real>
+			<key>timeStoppedRecording</key>
+			<real>562613217.94398105</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>E540B2BF-4752-41AE-9A6A-137E9A7C1FF3</string>
+		</dict>
+		<key>EEAFB22C-0329-4D39-9764-B7FEA2CEA5FC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EEAFB22C-0329-4D39-9764-B7FEA2CEA5FC.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562613750.39759696</real>
+			<key>timeStoppedRecording</key>
+			<real>562613758.733096</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>EEAFB22C-0329-4D39-9764-B7FEA2CEA5FC</string>
+		</dict>
+		<key>F35CF557-74B3-4766-82BB-FED87C720DE4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F35CF557-74B3-4766-82BB-FED87C720DE4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562613908.69185495</real>
+			<key>timeStoppedRecording</key>
+			<real>562613917.95973206</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>F35CF557-74B3-4766-82BB-FED87C720DE4</string>
+		</dict>
+		<key>FB3D8655-59DB-4628-A0CC-3FE62E2CEDAD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FB3D8655-59DB-4628-A0CC-3FE62E2CEDAD.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ArtDecoMvd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ArtDecoMvd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build ArtDecoMvd</string>
+			<key>timeStartedRecording</key>
+			<real>562610861.32656002</real>
+			<key>timeStoppedRecording</key>
+			<real>562610863.66910505</real>
+			<key>title</key>
+			<string>Build ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>FB3D8655-59DB-4628-A0CC-3FE62E2CEDAD</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

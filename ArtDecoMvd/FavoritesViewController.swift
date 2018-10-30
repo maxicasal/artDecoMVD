@@ -37,12 +37,10 @@ class FavoritesViewController: UIViewController{
     }
     
     func initializeFavorites() {
-//        favorites = Building.loadBuildings()
-//            .filter{ building in
-//                return Favorites.sharedInstance.isFavorite(building: building)
-//            }.sort({
-//                $0.name < $1.name
-//            })
+        favorites = Building.loadBuildings()
+            .filter{ building in
+                return Favorites.sharedInstance.isFavorite(building: building)
+            }
     }
     
 }

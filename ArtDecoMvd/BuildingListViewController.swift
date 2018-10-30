@@ -41,7 +41,7 @@ class BuildingListViewController: UIViewController {
         setupSearchController()
 
         // load buildings
-//        buildingsList = Building.loadBuildings().sort({ $0.name < $1.name })
+        buildingsList = Building.loadBuildings()
         buildingsByAuthor = groupBuildingsByAuthor()
 
         tableView.delegate = self
@@ -110,8 +110,9 @@ class BuildingListViewController: UIViewController {
 }
 
 extension BuildingListViewController : UISearchResultsUpdating, UISearchBarDelegate {
+
     func updateSearchResults(for searchController: UISearchController) {
-        //ToDo
+        filterContentForSearchText(searchText: searchController.searchBar.text!)
     }
     
 
@@ -160,16 +161,24 @@ extension BuildingListViewController: UITableViewDelegate, UITableViewDataSource
 
         if isSearch() {
             return filteredBuildings.count
-        }else if builingListType == TableOption.ByBuilding {
+        } else if builingListType == TableOption.ByBuilding {
             return buildingsList.count
-        }else{
+        } else {
             let key = buildingsByAuthorKeys[section]
             return (buildingsByAuthor![key]?.count)!
         }
     }
 
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return isSearch() ? 1 : (builingListType == TableOption.ByBuilding ? 1 : buildingsByAuthor!.keys.count)
+    func numberOfSections(in tableView: UITableView) -> Int {
+        if isSearch() {
+            return 1
+        } else {
+            if (builingListType == TableOption.ByBuilding) {
+                return 1
+            } else {
+                return buildingsByAuthor!.keys.count
+            }
+        }
     }
 
 
@@ -222,7 +231,7 @@ extension BuildingListViewController: UITableViewDelegate, UITableViewDataSource
 
 }
 
-extension BuildingListViewController{
+extension BuildingListViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let cell = sender as? UITableViewCell,
@@ -233,19 +242,19 @@ extension BuildingListViewController{
         }
     }
 
-    func getBuildingByIndexPath(indexPath:NSIndexPath) -> Building{
+    func getBuildingByIndexPath(indexPath:NSIndexPath) -> Building {
 
         if isSearch() {
             return filteredBuildings[indexPath.row]
-        }else if builingListType == TableOption.ByBuilding {
+        } else if builingListType == TableOption.ByBuilding {
             return buildingsList[indexPath.row]
-        }else{
+        } else {
             let key = buildingsByAuthorKeys[indexPath.section]
             return buildingsByAuthor![key]![indexPath.row]
         }
     }
 
-    private func groupBuildingsByAuthor() -> [String:[Building]]{
+    private func groupBuildingsByAuthor() -> [String:[Building]] {
         var list = [String:[Building]]()
 
         for building in buildingsList {
@@ -259,13 +268,12 @@ extension BuildingListViewController{
         }
 
         buildingsByAuthorKeys = Array(list.keys)
-//        buildingsByAuthorKeys.sortInPlace({
-//            $0 < $1 || $1 == "Otros"
-//        })
+        
 
-        _ = buildingsByAuthorKeys.map { (key) in
+        buildingsByAuthorKeys.map { (key) in
             list[key]!.sort(by: { $0.name < $1.name })
         }
+
         return list
     }
 }

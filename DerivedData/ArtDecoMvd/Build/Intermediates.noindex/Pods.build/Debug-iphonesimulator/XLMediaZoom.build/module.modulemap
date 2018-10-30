@@ -1,0 +1,6 @@
+framework module XLMediaZoom {
+  umbrella header "XLMediaZoom-umbrella.h"
+
+  export *
+  module * { export * }
+}

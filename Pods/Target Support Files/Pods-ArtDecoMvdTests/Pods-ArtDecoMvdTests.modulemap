@@ -1,0 +1,6 @@
+framework module Pods_ArtDecoMvdTests {
+  umbrella header "Pods-ArtDecoMvdTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

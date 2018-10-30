@@ -1,0 +1,20 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - XLMediaZoom (2.0.1)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - XLMediaZoom
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DZNEmptyDataSet
+    - XLMediaZoom
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  XLMediaZoom: 52f8f473066d0a3e09572fbee6c84f25c1ed0bca
+
+PODFILE CHECKSUM: 2e5955510ee0e5dfc023b3cc3ac5cb14103dfdd8
+
+COCOAPODS: 1.5.2

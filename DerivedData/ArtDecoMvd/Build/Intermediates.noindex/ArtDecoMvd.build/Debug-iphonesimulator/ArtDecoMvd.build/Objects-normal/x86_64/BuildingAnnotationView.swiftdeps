@@ -1,0 +1,498 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BuildingAnnotationView"
+provides-nominal:
+- "10ArtDecoMvd22BuildingAnnotationViewC"
+provides-member:
+- ["10ArtDecoMvd22BuildingAnnotationViewC", ""]
+provides-dynamic-lookup:
+- "hitTest"
+- "point"
+depends-top-level:
+- !private "!"
+- !private "!="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "BuildingAnnotationView"
+- "BuildingView"
+- "CGPoint"
+- "MKAnnotation"
+- "MKAnnotationView"
+- !private "StringLiteralType"
+- "UIEvent"
+- "UIView"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["10ArtDecoMvd22BuildingAnnotationViewC", "Bool"]
+- ["10ArtDecoMvd22BuildingAnnotationViewC", "BuildingView"]
+- ["10ArtDecoMvd22BuildingAnnotationViewC", "CGPoint"]
+- ["10ArtDecoMvd22BuildingAnnotationViewC", "MKAnnotation"]
+- ["10ArtDecoMvd22BuildingAnnotationViewC", "UIEvent"]
+- ["10ArtDecoMvd22BuildingAnnotationViewC", "UIView"]
+- !private ["10ArtDecoMvd22BuildingAnnotationViewC", "bounds"]
+- !private ["10ArtDecoMvd22BuildingAnnotationViewC", "calloutView"]
+- !private ["10ArtDecoMvd22BuildingAnnotationViewC", "canShowCallout"]
+- !private ["10ArtDecoMvd22BuildingAnnotationViewC", "deinit"]
+- !private ["10ArtDecoMvd22BuildingAnnotationViewC", "hitOutside"]
+- ["10ArtDecoMvd22BuildingAnnotationViewC", "hitTest"]
+- ["10ArtDecoMvd22BuildingAnnotationViewC", "init"]
+- ["10ArtDecoMvd22BuildingAnnotationViewC", "point"]
+- !private ["10ArtDecoMvd22BuildingAnnotationViewC", "subviews"]
+- !private ["10ArtDecoMvd22BuildingAnnotationViewC", "superview"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "bringSubview"]
+- !private ["So15CALayerDelegateP", "canShowCallout"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "hitTest"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "subviews"]
+- !private ["So15CALayerDelegateP", "superview"]
+- !private ["So6CGRectV", "contains"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "bringSubview"]
+- !private ["s7CVarArgP", "canShowCallout"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "hitTest"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subviews"]
+- !private ["s7CVarArgP", "superview"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "bringSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "canShowCallout"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "hitTest"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subviews"]
+- !private ["s28CustomDebugStringConvertibleP", "superview"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "bringSubview"]
+- !private ["s23CustomStringConvertibleP", "canShowCallout"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "hitTest"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subviews"]
+- !private ["s23CustomStringConvertibleP", "superview"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "contains"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "contains"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "bringSubview"]
+- !private ["SQ", "canShowCallout"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "hitTest"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subviews"]
+- !private ["SQ", "superview"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "bounds"]
+- !private ["SH", "bringSubview"]
+- !private ["SH", "canShowCallout"]
+- !private ["SH", "frame"]
+- !private ["SH", "hitTest"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "subviews"]
+- !private ["SH", "superview"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["So16MKAnnotationViewC", "Bool"]
+- ["So16MKAnnotationViewC", "BuildingView"]
+- ["So16MKAnnotationViewC", "CGPoint"]
+- ["So16MKAnnotationViewC", "MKAnnotation"]
+- ["So16MKAnnotationViewC", "UIEvent"]
+- ["So16MKAnnotationViewC", "UIView"]
+- ["So16MKAnnotationViewC", ""]
+- !private ["So16MKAnnotationViewC", "bounds"]
+- ["So16MKAnnotationViewC", "calloutView"]
+- !private ["So16MKAnnotationViewC", "canShowCallout"]
+- ["So16MKAnnotationViewC", "hitOutside"]
+- ["So16MKAnnotationViewC", "hitTest"]
+- ["So16MKAnnotationViewC", "init"]
+- !private ["So16MKAnnotationViewC", "init"]
+- ["So16MKAnnotationViewC", "point"]
+- !private ["So16MKAnnotationViewC", "subviews"]
+- !private ["So16MKAnnotationViewC", "superview"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "bringSubview"]
+- !private ["So8NSCodingP", "canShowCallout"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "hitTest"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "subviews"]
+- !private ["So8NSCodingP", "superview"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "BuildingView"]
+- ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "MKAnnotation"]
+- ["So8NSObjectC", "UIEvent"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "bringSubview"]
+- ["So8NSObjectC", "calloutView"]
+- !private ["So8NSObjectC", "canShowCallout"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "hitOutside"]
+- ["So8NSObjectC", "hitTest"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "point"]
+- !private ["So8NSObjectC", "subviews"]
+- !private ["So8NSObjectC", "superview"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "bringSubview"]
+- !private ["So8NSObjectP", "canShowCallout"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "hitTest"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "subviews"]
+- !private ["So8NSObjectP", "superview"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "bringSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "canShowCallout"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "hitTest"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "subviews"]
+- !private ["So29UIAccessibilityIdentificationP", "superview"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "bringSubview"]
+- !private ["So12UIAppearanceP", "canShowCallout"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "hitTest"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "subviews"]
+- !private ["So12UIAppearanceP", "superview"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "bringSubview"]
+- !private ["So21UIAppearanceContainerP", "canShowCallout"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "hitTest"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "subviews"]
+- !private ["So21UIAppearanceContainerP", "superview"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "bringSubview"]
+- !private ["So17UICoordinateSpaceP", "canShowCallout"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "hitTest"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "subviews"]
+- !private ["So17UICoordinateSpaceP", "superview"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "bringSubview"]
+- !private ["So13UIDynamicItemP", "canShowCallout"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "hitTest"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "subviews"]
+- !private ["So13UIDynamicItemP", "superview"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "bringSubview"]
+- !private ["So18UIFocusEnvironmentP", "canShowCallout"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "hitTest"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "subviews"]
+- !private ["So18UIFocusEnvironmentP", "superview"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "bringSubview"]
+- !private ["So11UIFocusItemP", "canShowCallout"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "hitTest"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "subviews"]
+- !private ["So11UIFocusItemP", "superview"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "bounds"]
+- !private ["So20UIFocusItemContainerP", "bringSubview"]
+- !private ["So20UIFocusItemContainerP", "canShowCallout"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "hitTest"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "subviews"]
+- !private ["So20UIFocusItemContainerP", "superview"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "bringSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "canShowCallout"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "hitTest"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "subviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "superview"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "BuildingView"]
+- ["So11UIResponderC", "CGPoint"]
+- ["So11UIResponderC", "MKAnnotation"]
+- ["So11UIResponderC", "UIEvent"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "bounds"]
+- !private ["So11UIResponderC", "bringSubview"]
+- ["So11UIResponderC", "calloutView"]
+- !private ["So11UIResponderC", "canShowCallout"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "hitOutside"]
+- ["So11UIResponderC", "hitTest"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "point"]
+- !private ["So11UIResponderC", "subviews"]
+- !private ["So11UIResponderC", "superview"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "bringSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "canShowCallout"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "hitTest"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "subviews"]
+- !private ["So30UIResponderStandardEditActionsP", "superview"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "bringSubview"]
+- !private ["So18UITraitEnvironmentP", "canShowCallout"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "hitTest"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "subviews"]
+- !private ["So18UITraitEnvironmentP", "superview"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "bounds"]
+- !private ["So23UIUserActivityRestoringP", "bringSubview"]
+- !private ["So23UIUserActivityRestoringP", "canShowCallout"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "hitTest"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "subviews"]
+- !private ["So23UIUserActivityRestoringP", "superview"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "BuildingView"]
+- ["So6UIViewC", "CGPoint"]
+- ["So6UIViewC", "MKAnnotation"]
+- ["So6UIViewC", "UIEvent"]
+- ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So6UIViewC", "bringSubview"]
+- ["So6UIViewC", "calloutView"]
+- !private ["So6UIViewC", "canShowCallout"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "hitOutside"]
+- ["So6UIViewC", "hitTest"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
+- ["So6UIViewC", "point"]
+- !private ["So6UIViewC", "subviews"]
+- !private ["So6UIViewC", "superview"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bringSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "canShowCallout"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "hitTest"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "subviews"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "superview"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bringSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canShowCallout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hitTest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "superview"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- "10ArtDecoMvd22BuildingAnnotationViewC"
+- "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "So16MKAnnotationViewC"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphonesimulator/XLMediaZoom/XLMediaZoom.framework/Headers/XLMediaZoom-umbrella.h"
+- "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphonesimulator/DZNEmptyDataSet/DZNEmptyDataSet.framework/Headers/DZNEmptyDataSet-umbrella.h"
+- "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphonesimulator/XLMediaZoom/XLMediaZoom.framework/Headers/XLMediaZoom.h"
+- "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphonesimulator/XLMediaZoom/XLMediaZoom.framework/Headers/XLVideoZoom.h"
+- "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphonesimulator/DZNEmptyDataSet/DZNEmptyDataSet.framework/Headers/UIScrollView+EmptyDataSet.h"
+- "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphonesimulator/XLMediaZoom/XLMediaZoom.framework/Modules/module.modulemap"
+- "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphonesimulator/DZNEmptyDataSet/DZNEmptyDataSet.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0684860f84e0782c25b829c2021f87d1"
