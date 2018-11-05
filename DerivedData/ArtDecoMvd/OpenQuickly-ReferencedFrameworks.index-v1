@@ -4,13 +4,13 @@
 <array>
 	<string>MapKit</string>
 	<string>QuartzCore</string>
-	<string>Foundation</string>
 	<string>XCTest</string>
-	<string>ArtDecoMvd</string>
 	<string>XLMediaZoom</string>
-	<string>objc</string>
-	<string>DZNEmptyDataSet</string>
 	<string>CoreLocation</string>
+	<string>DZNEmptyDataSet</string>
+	<string>objc</string>
 	<string>UIKit</string>
+	<string>ArtDecoMvd</string>
+	<string>Foundation</string>
 </array>
 </plist>

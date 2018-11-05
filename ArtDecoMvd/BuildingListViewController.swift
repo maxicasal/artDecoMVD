@@ -270,7 +270,7 @@ extension BuildingListViewController {
         buildingsByAuthorKeys = Array(list.keys)
         
 
-        buildingsByAuthorKeys.map { (key) in
+        _ = buildingsByAuthorKeys.map { (key) in
             list[key]!.sort(by: { $0.name < $1.name })
         }
 

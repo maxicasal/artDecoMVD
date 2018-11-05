@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>58EFC808-F411-431C-B41B-8E0423198CF6</key>
+		<key>27427A8B-9131-46C0-9845-CA4C77EE3640</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,44 +15,21 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>58EFC808-F411-431C-B41B-8E0423198CF6.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>Pods-ArtDecoMvd-dfprhsuxeapsqbarxqvxxoektcap</string>
-			<key>timeStartedRecording</key>
-			<real>562613908.94658506</real>
-			<key>timeStoppedRecording</key>
-			<real>562613908.94847405</real>
-			<key>title</key>
-			<string>Build target Pods-ArtDecoMvd</string>
-			<key>uniqueIdentifier</key>
-			<string>58EFC808-F411-431C-B41B-8E0423198CF6</string>
-		</dict>
-		<key>5D723BAE-E39C-463E-B0BF-5C4F8DD50A28</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>5D723BAE-E39C-463E-B0BF-5C4F8DD50A28.xcactivitylog</string>
+			<string>27427A8B-9131-46C0-9845-CA4C77EE3640.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>DZNEmptyDataSet-dfprhsuxeapsqbarxqvxxoektcap</string>
 			<key>timeStartedRecording</key>
-			<real>562613908.94297099</real>
+			<real>563123717.88684797</real>
 			<key>timeStoppedRecording</key>
-			<real>562613908.94454503</real>
+			<real>563123717.895836</real>
 			<key>title</key>
 			<string>Build target DZNEmptyDataSet</string>
 			<key>uniqueIdentifier</key>
-			<string>5D723BAE-E39C-463E-B0BF-5C4F8DD50A28</string>
+			<string>27427A8B-9131-46C0-9845-CA4C77EE3640</string>
 		</dict>
-		<key>A031589D-EDFB-41A3-AD64-83C944169C50</key>
+		<key>40A0EE11-DB84-4220-80E3-A60990EC4AF6</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -61,21 +38,21 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>A031589D-EDFB-41A3-AD64-83C944169C50.xcactivitylog</string>
+			<string>40A0EE11-DB84-4220-80E3-A60990EC4AF6.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
-			<string>XLMediaZoom-dfprhsuxeapsqbarxqvxxoektcap</string>
+			<string>Pods-ArtDecoMvd-dfprhsuxeapsqbarxqvxxoektcap</string>
 			<key>timeStartedRecording</key>
-			<real>562613908.94456899</real>
+			<real>563123717.894225</real>
 			<key>timeStoppedRecording</key>
-			<real>562613908.94657803</real>
+			<real>563123717.89948106</real>
 			<key>title</key>
-			<string>Build target XLMediaZoom</string>
+			<string>Build target Pods-ArtDecoMvd</string>
 			<key>uniqueIdentifier</key>
-			<string>A031589D-EDFB-41A3-AD64-83C944169C50</string>
+			<string>40A0EE11-DB84-4220-80E3-A60990EC4AF6</string>
 		</dict>
-		<key>DC52BB9C-7B14-422D-9E4A-3F76A8231D1C</key>
+		<key>637E1A4A-20E1-4151-8355-9AF580BEC583</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -84,19 +61,134 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>DC52BB9C-7B14-422D-9E4A-3F76A8231D1C.xcactivitylog</string>
+			<string>637E1A4A-20E1-4151-8355-9AF580BEC583.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>signature</key>
 			<string>ArtDecoMvd-hesjvwyiwynkdhdpmrxclzdldpjp</string>
 			<key>timeStartedRecording</key>
-			<real>562613908.92095494</real>
+			<real>563123717.89870405</real>
 			<key>timeStoppedRecording</key>
-			<real>562613917.921839</real>
+			<real>563123727.43681502</real>
 			<key>title</key>
 			<string>Build target ArtDecoMvd</string>
 			<key>uniqueIdentifier</key>
-			<string>DC52BB9C-7B14-422D-9E4A-3F76A8231D1C</string>
+			<string>637E1A4A-20E1-4151-8355-9AF580BEC583</string>
+		</dict>
+		<key>7E4F0717-C5C1-4C98-AD09-E2B64F286131</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>7E4F0717-C5C1-4C98-AD09-E2B64F286131.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>signature</key>
+			<string>DZNEmptyDataSet-edoqjvuvmvzypbdzsjdqzliyfheg</string>
+			<key>timeStartedRecording</key>
+			<real>563123780.08317006</real>
+			<key>timeStoppedRecording</key>
+			<real>563123784.65739703</real>
+			<key>title</key>
+			<string>Build target DZNEmptyDataSet</string>
+			<key>uniqueIdentifier</key>
+			<string>7E4F0717-C5C1-4C98-AD09-E2B64F286131</string>
+		</dict>
+		<key>89F4AC44-1469-40B7-B124-B59041C2F4CE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>89F4AC44-1469-40B7-B124-B59041C2F4CE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>XLMediaZoom-edoqjvuvmvzypbdzsjdqzliyfheg</string>
+			<key>timeStartedRecording</key>
+			<real>563123780.08383203</real>
+			<key>timeStoppedRecording</key>
+			<real>563123784.72503996</real>
+			<key>title</key>
+			<string>Build target XLMediaZoom</string>
+			<key>uniqueIdentifier</key>
+			<string>89F4AC44-1469-40B7-B124-B59041C2F4CE</string>
+		</dict>
+		<key>8C2E427D-5C00-4A49-A398-B2D7DDF512DB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>8C2E427D-5C00-4A49-A398-B2D7DDF512DB.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Pods-ArtDecoMvd-edoqjvuvmvzypbdzsjdqzliyfheg</string>
+			<key>timeStartedRecording</key>
+			<real>563123780.08489799</real>
+			<key>timeStoppedRecording</key>
+			<real>563123785.71695006</real>
+			<key>title</key>
+			<string>Build target Pods-ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>8C2E427D-5C00-4A49-A398-B2D7DDF512DB</string>
+		</dict>
+		<key>C0D95394-FFA9-430B-BE08-0CB08A90DF0B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>C0D95394-FFA9-430B-BE08-0CB08A90DF0B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>XLMediaZoom-dfprhsuxeapsqbarxqvxxoektcap</string>
+			<key>timeStartedRecording</key>
+			<real>563123717.85800195</real>
+			<key>timeStoppedRecording</key>
+			<real>563123717.89509404</real>
+			<key>title</key>
+			<string>Build target XLMediaZoom</string>
+			<key>uniqueIdentifier</key>
+			<string>C0D95394-FFA9-430B-BE08-0CB08A90DF0B</string>
+		</dict>
+		<key>C6A1860B-FF95-46C5-AC76-DD0C12C774CA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>C6A1860B-FF95-46C5-AC76-DD0C12C774CA.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>signature</key>
+			<string>ArtDecoMvd-gqeyxcupyfiwpwcaywyinjhzoono</string>
+			<key>timeStartedRecording</key>
+			<real>563123780.07823396</real>
+			<key>timeStoppedRecording</key>
+			<real>563123796.36101902</real>
+			<key>title</key>
+			<string>Build target ArtDecoMvd</string>
+			<key>uniqueIdentifier</key>
+			<string>C6A1860B-FF95-46C5-AC76-DD0C12C774CA</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

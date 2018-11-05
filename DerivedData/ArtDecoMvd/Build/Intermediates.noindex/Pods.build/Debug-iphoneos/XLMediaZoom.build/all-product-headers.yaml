@@ -1,0 +1,102 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphoneos/DZNEmptyDataSet/DZNEmptyDataSet.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DZNEmptyDataSet-Swift.h",
+          'external-contents': "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphoneos/DZNEmptyDataSet/DZNEmptyDataSet.framework/Headers/DZNEmptyDataSet-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DZNEmptyDataSet-umbrella.h",
+          'external-contents': "/Users/maxicasal/Desktop/art-deco-mvd-master/Pods/Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIScrollView+EmptyDataSet.h",
+          'external-contents': "/Users/maxicasal/Desktop/art-deco-mvd-master/Pods/DZNEmptyDataSet/Source/UIScrollView+EmptyDataSet.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphoneos/DZNEmptyDataSet/DZNEmptyDataSet.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/DZNEmptyDataSet.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphoneos/Pods_ArtDecoMvd.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-ArtDecoMvd-umbrella.h",
+          'external-contents': "/Users/maxicasal/Desktop/art-deco-mvd-master/Pods/Target Support Files/Pods-ArtDecoMvd/Pods-ArtDecoMvd-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_ArtDecoMvd-Swift.h",
+          'external-contents': "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphoneos/Pods_ArtDecoMvd.framework/Headers/Pods_ArtDecoMvd-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphoneos/Pods_ArtDecoMvd.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-ArtDecoMvd.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphoneos/XLMediaZoom/XLMediaZoom.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "XLMediaZoom-Swift.h",
+          'external-contents': "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphoneos/XLMediaZoom/XLMediaZoom.framework/Headers/XLMediaZoom-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "XLMediaZoom-umbrella.h",
+          'external-contents': "/Users/maxicasal/Desktop/art-deco-mvd-master/Pods/Target Support Files/XLMediaZoom/XLMediaZoom-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "XLMediaZoom.h",
+          'external-contents': "/Users/maxicasal/Desktop/art-deco-mvd-master/Pods/XLMediaZoom/XLMediaZoom/XL/XLMediaZoom.h"
+        },
+        {
+          'type': 'file',
+          'name': "XLVideoZoom.h",
+          'external-contents': "/Users/maxicasal/Desktop/art-deco-mvd-master/Pods/XLMediaZoom/XLMediaZoom/XL/XLVideoZoom.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Products/Debug-iphoneos/XLMediaZoom/XLMediaZoom.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/maxicasal/Desktop/art-deco-mvd-master/DerivedData/ArtDecoMvd/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/XLMediaZoom.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

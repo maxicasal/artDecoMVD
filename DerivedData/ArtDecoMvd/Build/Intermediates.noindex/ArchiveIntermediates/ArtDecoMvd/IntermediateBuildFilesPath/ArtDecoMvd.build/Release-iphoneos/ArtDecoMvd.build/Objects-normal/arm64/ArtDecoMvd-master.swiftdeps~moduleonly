@@ -1,0 +1,19 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "2fea3eeed62b9462baf4b1fbe45d8c9a"
+build_time: [1540945555, 871392000]
+inputs:
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/BuildingDetailViewController.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/MapViewController.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/Building.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/Constants.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/BuildingView.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/NavViewController.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/LocationSearchTableViewController.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/ListViewController.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/BuildingListViewController.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/BuildingPinAnnotation.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/FavoritesViewController.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/BuildingAnnotationView.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/BuildingTableViewCell.swift": [9223372036, 854775807]
+  "/Users/maxicasal/Desktop/art-deco-mvd-master/ArtDecoMvd/Favorites.swift": [9223372036, 854775807]
